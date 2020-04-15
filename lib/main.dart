@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               Container(
                 width: 100,
-                padding: EdgeInsets.fromLTRB(5, 5, 10, 5),
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
                 color: Colors.teal,
                 child: 
                 Column(
@@ -91,27 +91,27 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisSize: MainAxisSize.max,
                     crossAxisAlignment: CrossAxisAlignment.end,
                       children: <Widget>[
-                        Text("Name:", textAlign: TextAlign.end),
-                        Text("Age:", textAlign: TextAlign.end),
-                        Text("City:", textAlign: TextAlign.end),
-                        Text("Grade:", textAlign: TextAlign.end),
-                        Text("team:", textAlign: TextAlign.end)
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("Name:", textAlign: TextAlign.end)),
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("Age:", textAlign: TextAlign.end)),
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("City:", textAlign: TextAlign.end)),
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("Grade:", textAlign: TextAlign.end)),
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("Team:", textAlign: TextAlign.end))
                       ],
                   ),
               ),
               Container(
                 width: 100,
-                padding: EdgeInsets.fromLTRB(10, 5, 5, 5),
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
                 color: Colors.blueAccent,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Text("Menahem", textAlign: TextAlign.start),
-                      Text("15", textAlign: TextAlign.start),
-                      Text("Yeruham", textAlign: TextAlign.start),
-                      Text("9", textAlign: TextAlign.start),
-                      Text("TheYBot", textAlign: TextAlign.start)
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("Menahem", textAlign: TextAlign.start)),
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("15", textAlign: TextAlign.start)),
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("Yeruham", textAlign: TextAlign.start)),
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("9", textAlign: TextAlign.start)),
+                        Container(color: Colors.white, width: double.infinity ,padding: EdgeInsets.fromLTRB(5, 10, 5, 10),child: Text("TheYBot", textAlign: TextAlign.start))
                     ] 
                   ),
               )
